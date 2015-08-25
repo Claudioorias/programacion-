@@ -1,0 +1,20 @@
+// Areacuadrado.cpp : Defines the entry point for the console application.
+// Autor: Claudio Orias	
+// Fecha: 25/08/15
+
+
+#include "stdafx.h"
+
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+void main ()
+{ float l,c;
+  cout<< "ingrese el lado del cuadrado"; 
+  cin>> l; 
+  c=l*l;
+  cout<< "el are del cuadrado es:"<< c;
+  getch();
+}
+
