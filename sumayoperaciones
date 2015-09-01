@@ -1,0 +1,31 @@
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+using namespace std;
+int main(){
+	//se declaran variables enteras y decimales
+   int a,b,c,d,e;
+   float f;
+   int g;
+   //se ingresan numero a las variables 
+  cout <<"ingrese el primer numero"<< endl;
+  cin >> a;
+  cout <<"ingrese el segundo numer"<< endl;
+  cin >> b;
+  //indica las operaciones que se efectuan las variables
+  c = a+b;//suma
+  d = a-b;//resta
+  e = a*b;//multiplicacion
+  f = a/b;//division
+  g = a%b;//residuo
+  //se indican los resultados de cada operacion
+  cout <<"la suma; " << c << endl;
+  cout <<"la resta es; " << d << endl;
+  cout <<"la multiplicacion es; " << e << endl;
+  cout <<"la division es; " << f << endl;
+  cout <<"el rsiduo es; " << g << endl;
+  //se obtienen resulatdos de la suma resta multiplicacion y division
+getch();
+return 0;
+}
