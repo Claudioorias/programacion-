@@ -1,0 +1,23 @@
+// Votos.cpp : Defines the entry point for the console application.
+// Autor: Claudio Orias Dominguez						
+// Fecha: 08/0915
+
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+void main ()
+{
+	int a;
+	cout<<"escribir edad";
+	cin>>a;
+if (a>=18)
+   cout<<"usted puede votar";
+else
+   cout<<"usted no puede votar";
+getch();
+
+}
