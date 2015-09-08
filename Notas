@@ -1,0 +1,30 @@
+// Notas.cpp : Defines the entry point for the console application.
+// Autor: Claudio Orias Dominguez
+// Fecha: 08/09/15
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+void main()
+{
+   float a,b,c,d,e,f,n;
+   cout<<"ingrese la nota del primer parcial:";
+   cin>> a;
+   cout<<"ingrese la nota del segundo parcial:";
+   cin>> b;
+   cout<<"ingrese la nota del tercer parcial: ";
+   cin>> c;
+   cout<<"ingrese la nota del examen final: ";
+   cin>> d;
+   cout<<"ingrese la nota de los proyectos: ";
+   cin>> e;
+   cout<<"ingrese la nota de los practicos";
+   cin>> f;
+   n=(a+b+c+d+e+f);
+   cout<<"la nota final es de: "<<n<<endl;
+	getch();
+}
+
