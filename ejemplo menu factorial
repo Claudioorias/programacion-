@@ -29,8 +29,9 @@ void main()
         // Condicional multiple
         switch(opcion)
         {
-        case 1:cout<<"Ingrese el numero a calcular su factorial:"<<Fac;
+        case 1:cout<<"Ingrese el numero a calcular su factorial:"<<;
             cin>> f;
+            Fac=factorial(f);
             cout<<"El factorial es:"<<Fac;
             break;
 
@@ -58,7 +59,7 @@ float factorial(float f)
 {
     float acum=1;
     for (int i=1;i<=f;i++)
-        acum=acum*1;
+        acum=acum*i;
     return acum;
 }
 float raiz(float dato)
